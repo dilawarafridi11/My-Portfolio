@@ -1,0 +1,63 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> /F2 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >> >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 3047 >>
+stream
+0.04 0.06 0.10 rg 0 0 595 842 re f
+59 130 246 RG 3 w 50 770 m 545 770 l S
+BT 50 735 Td /F2 26 Tf 230 237 247 rg (MUHAMMAD DILAWAR) Tj ET
+BT 50 715 Td /F1 13 Tf 34 211 238 rg (Full Stack Developer | Web & Mobile App Developer) Tj ET
+BT 50 695 Td /F1 10 Tf 154 168 189 rg (Email: dilawarafridi553@gmail.com    Phone: 0324 9052478    Location: Peshawar, Pakistan) Tj ET
+BT 50 665 Td /F2 15 Tf 34 211 238 rg (SUMMARY) Tj ET
+59 130 246 RG 1 w 50 659 m 545 659 l S
+BT 50 643 Td /F1 11 Tf 230 237 247 rg (Passionate Software Engineering student focused on building modern, responsive web applications) Tj ET
+BT 50 628 Td /F1 11 Tf 230 237 247 rg (and professional Flutter mobile applications. Skilled in translating ideas into user-friendly) Tj ET
+BT 50 613 Td /F1 11 Tf 230 237 247 rg (digital products for businesses worldwide.) Tj ET
+BT 50 590 Td /F2 15 Tf 34 211 238 rg (EDUCATION) Tj ET
+59 130 246 RG 1 w 50 584 m 545 584 l S
+BT 50 568 Td /F2 12 Tf 230 237 247 rg (BS Software Engineering - Sarhad University) Tj ET
+BT 50 552 Td /F1 11 Tf 230 237 247 rg (- Software Engineering) Tj ET
+BT 50 537 Td /F1 11 Tf 230 237 247 rg (- Programming) Tj ET
+BT 50 522 Td /F1 11 Tf 230 237 247 rg (- Database Systems) Tj ET
+BT 50 507 Td /F1 11 Tf 230 237 247 rg (- Data Structures) Tj ET
+BT 50 492 Td /F1 11 Tf 230 237 247 rg (- Algorithms) Tj ET
+BT 50 477 Td /F1 11 Tf 230 237 247 rg (- Software Testing) Tj ET
+BT 50 462 Td /F1 11 Tf 230 237 247 rg (- Requirement Engineering) Tj ET
+BT 50 447 Td /F1 11 Tf 230 237 247 rg (- Artificial Intelligence) Tj ET
+BT 50 422 Td /F2 15 Tf 34 211 238 rg (SKILLS) Tj ET
+59 130 246 RG 1 w 50 416 m 545 416 l S
+BT 50 400 Td /F1 11 Tf 230 237 247 rg (- Web: HTML5, CSS3, JavaScript, React, Node.js, Next.js, Laravel) Tj ET
+BT 50 385 Td /F1 11 Tf 230 237 247 rg (- Mobile: Flutter, Dart, Android Development) Tj ET
+BT 50 370 Td /F1 11 Tf 230 237 247 rg (- Tools: Git, GitHub, VS Code, Android Studio, Docker) Tj ET
+BT 50 355 Td /F1 11 Tf 230 237 247 rg (- Engineering: OOP, Data Structures, Algorithms, UML, Software Testing) Tj ET
+BT 50 330 Td /F2 15 Tf 34 211 238 rg (PROJECTS) Tj ET
+59 130 246 RG 1 w 50 324 m 545 324 l S
+BT 50 308 Td /F1 11 Tf 230 237 247 rg (- KP Fisheries Department App - Flutter mobile app with dashboards, water bodies and licence management) Tj ET
+BT 50 293 Td /F1 11 Tf 230 237 247 rg (- WebGuard - SaaS website monitoring platform (uptime, SSL, domain and response-time monitoring)) Tj ET
+BT 50 278 Td /F1 11 Tf 230 237 247 rg (- LMS / School Management System - student, teacher, parent and admin dashboards) Tj ET
+BT 50 263 Td /F1 11 Tf 230 237 247 rg (- Installment Management App - product catalog, EMI calculator, cart and installment tracking) Tj ET
+BT 50 248 Td /F1 11 Tf 230 237 247 rg (- Motorcycle Spare Parts ERP - inventory, sales, purchases, customers and reporting) Tj ET
+BT 50 223 Td /F2 15 Tf 34 211 238 rg (SERVICES) Tj ET
+59 130 246 RG 1 w 50 217 m 545 217 l S
+BT 50 201 Td /F1 11 Tf 230 237 247 rg (- Web Development, Mobile App Development, UI/UX Design, Management Systems) Tj ET
+endstream
+endobj
+xref
+0 5
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000354 00000 n 
+trailer << /Size 5 /Root 1 0 R >>
+startxref
+3453
+%%EOF

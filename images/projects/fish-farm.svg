@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" role="img" aria-label="Fish Farm Management form UI mockup">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1226"/>
+      <stop offset="1" stop-color="#132038"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#3b82f6"/>
+    </linearGradient>
+    <filter id="s" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000" flood-opacity="0.55"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="340" fill="url(#bg)"/>
+  <g opacity="0.05" stroke="#fff">
+    <path d="M100 0v340M200 0v340M300 0v340M400 0v340M500 0v340M0 85h600M0 170h600M0 255h600"/>
+  </g>
+
+  <!-- header bar -->
+  <rect x="40" y="34" width="520" height="56" rx="14" fill="#0a0e1a" stroke="#22d3ee" stroke-opacity="0.3"/>
+  <rect x="62" y="54" width="120" height="16" rx="8" fill="url(#acc)" opacity="0.85"/>
+  <circle cx="512" cy="58" r="8" fill="#8b5cf6"/>
+  <circle cx="536" cy="58" r="8" fill="#3b82f6"/>
+
+  <!-- form panel -->
+  <g filter="url(#s)">
+    <rect x="60" y="112" width="480" height="196" rx="16" fill="#0f172a" stroke="#3b82f6" stroke-opacity="0.4"/>
+    <rect x="86" y="132" width="120" height="7" rx="3.5" fill="#22d3ee"/>
+    <rect x="86" y="146" width="80" height="5" rx="2.5" fill="#ffffff" opacity="0.18"/>
+
+    <g font-family="Arial" font-size="11" fill="#8fa3bf">
+      <text x="86" y="182">Farm Name</text>
+      <text x="296" y="182">Address</text>
+      <text x="86" y="222">Registration No.</text>
+      <text x="296" y="222">Certificate No.</text>
+      <text x="86" y="262">Farm Area</text>
+      <text x="296" y="262">GPS Coordinates</text>
+    </g>
+    <g fill="#0a0e1a">
+      <rect x="86" y="190" width="186" height="22" rx="7"/>
+      <rect x="296" y="190" width="218" height="22" rx="7"/>
+      <rect x="86" y="230" width="186" height="22" rx="7"/>
+      <rect x="296" y="230" width="218" height="22" rx="7"/>
+      <rect x="86" y="270" width="186" height="22" rx="7"/>
+      <rect x="296" y="270" width="218" height="22" rx="7"/>
+    </g>
+    <g font-family="Arial" font-size="10" fill="#9aa8bd">
+      <text x="94" y="205">Dilawar Fish Farm</text>
+      <text x="304" y="205">Peshawar, KP</text>
+      <text x="94" y="245">FF-2024-118</text>
+      <text x="304" y="245">CERT-5521</text>
+      <text x="94" y="285">2.5 Acres</text>
+      <text x="304" y="285">34.0151° N, 71.5249° E</text>
+    </g>
+  </g>
+
+  <!-- farmer side card -->
+  <g filter="url(#s)">
+    <rect x="300" y="60" width="120" height="36" rx="12" fill="#101a38" stroke="#8b5cf6" stroke-opacity="0.5" transform="rotate(2 360 78)"/>
+    <circle cx="322" cy="78" r="9" fill="#8b5cf6" opacity="0.8"/>
+    <rect x="338" y="71" width="60" height="6" rx="3" fill="#ffffff" opacity="0.3"/>
+    <rect x="338" y="81" width="44" height="5" rx="2.5" fill="#ffffff" opacity="0.16"/>
+  </g>
+
+  <text x="600" y="24" font-family="Arial" font-size="13" font-weight="bold" fill="#22d3ee" text-anchor="end">FARM REGISTRATION</text>
+</svg>

@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" role="img" aria-label="Fisheries Department mobile app UI mockup">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1226"/>
+      <stop offset="1" stop-color="#101a38"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3b82f6"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="pur" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#3b82f6"/>
+    </linearGradient>
+    <filter id="s" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="340" fill="url(#bg)"/>
+  <g opacity="0.05" stroke="#fff">
+    <path d="M120 0v340M240 0v340M360 0v340M480 0v340M0 80h600M0 170h600M0 260h600"/>
+  </g>
+
+  <!-- side panel -->
+  <g filter="url(#s)">
+    <rect x="30" y="34" width="180" height="272" rx="16" fill="#0a0e1a" stroke="#22d3ee" stroke-opacity="0.35"/>
+    <rect x="48" y="56" width="90" height="10" rx="5" fill="url(#acc)"/>
+    <rect x="48" y="82" width="144" height="34" rx="9" fill="#3b82f6" opacity="0.22"/>
+    <rect x="60" y="94" width="60" height="6" rx="3" fill="#22d3ee"/>
+    <rect x="48" y="128" width="110" height="7" rx="3.5" fill="#ffffff" opacity="0.3"/>
+    <rect x="48" y="144" width="140" height="7" rx="3.5" fill="#ffffff" opacity="0.16"/>
+    <rect x="48" y="160" width="90" height="7" rx="3.5" fill="#ffffff" opacity="0.16"/>
+    <rect x="48" y="196" width="110" height="7" rx="3.5" fill="#8b5cf6" opacity="0.6"/>
+    <rect x="48" y="212" width="120" height="7" rx="3.5" fill="#ffffff" opacity="0.16"/>
+    <rect x="48" y="228" width="80" height="7" rx="3.5" fill="#ffffff" opacity="0.16"/>
+    <rect x="48" y="272" width="100" height="16" rx="8" fill="url(#pur)"/>
+  </g>
+
+  <!-- dashboard phone -->
+  <g filter="url(#s)">
+    <rect x="230" y="34" width="170" height="272" rx="16" fill="#0a0e1a" stroke="#3b82f6" stroke-opacity="0.5"/>
+    <rect x="278" y="44" width="74" height="6" rx="3" fill="#ffffff" opacity="0.4"/>
+    <rect x="248" y="62" width="60" height="8" rx="4" fill="#22d3ee"/>
+    <rect x="248" y="76" width="134" height="6" rx="3" fill="#ffffff" opacity="0.2"/>
+    <!-- stat cards -->
+    <rect x="248" y="96" width="64" height="52" rx="10" fill="#101c3f"/>
+    <rect x="254" y="104" width="30" height="6" rx="3" fill="#ffffff" opacity="0.25"/>
+    <rect x="254" y="116" width="40" height="10" rx="5" fill="#22d3ee"/>
+    <rect x="318" y="96" width="64" height="52" rx="10" fill="#221640"/>
+    <rect x="324" y="104" width="30" height="6" rx="3" fill="#ffffff" opacity="0.25"/>
+    <rect x="324" y="116" width="40" height="10" rx="5" fill="#8b5cf6"/>
+    <!-- chart -->
+    <rect x="248" y="160" width="134" height="64" rx="10" fill="#0f172a"/>
+    <polyline points="258,212 278,196 298,204 318,180 338,190 358,170 372,174" fill="none" stroke="#22d3ee" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="248" y="236" width="134" height="52" rx="10" fill="#0f172a"/>
+    <circle cx="266" cy="262" r="6" fill="#3b82f6"/>
+    <circle cx="290" cy="262" r="6" fill="#22d3ee"/>
+    <circle cx="314" cy="262" r="6" fill="#8b5cf6"/>
+    <rect x="252" y="276" width="128" height="4" rx="2" fill="#ffffff" opacity="0.14"/>
+  </g>
+
+  <!-- login/dams phone -->
+  <g filter="url(#s)">
+    <rect x="420" y="34" width="150" height="272" rx="16" fill="#0a0e1a" stroke="#8b5cf6" stroke-opacity="0.5"/>
+    <rect x="444" y="52" width="100" height="14" rx="7" fill="url(#acc)" opacity="0.9"/>
+    <rect x="444" y="76" width="100" height="26" rx="8" fill="#0f172a" stroke="#22d3ee" stroke-opacity="0.3"/>
+    <rect x="452" y="86" width="40" height="6" rx="3" fill="#ffffff" opacity="0.4"/>
+    <rect x="444" y="110" width="100" height="26" rx="8" fill="#0f172a" stroke="#8b5cf6" stroke-opacity="0.35"/>
+    <rect x="452" y="120" width="50" height="6" rx="3" fill="#ffffff" opacity="0.3"/>
+    <rect x="444" y="144" width="100" height="40" rx="10" fill="url(#pur)"/>
+    <text x="474" y="169" font-family="Arial" font-size="13" font-weight="bold" fill="#fff">Login</text>
+    <line x1="456" y1="200" x2="534" y2="200" stroke="#ffffff" stroke-opacity="0.12"/>
+    <rect x="444" y="212" width="100" height="14" rx="7" fill="#0f172a"/>
+    <rect x="452" y="217" width="70" height="5" rx="2.5" fill="#8b5cf6" opacity="0.7"/>
+    <rect x="444" y="234" width="100" height="14" rx="7" fill="#0f172a"/>
+    <rect x="452" y="239" width="50" height="5" rx="2.5" fill="#3b82f6" opacity="0.7"/>
+    <rect x="444" y="258" width="100" height="14" rx="7" fill="#0f172a"/>
+    <rect x="452" y="263" width="66" height="5" rx="2.5" fill="#22d3ee" opacity="0.7"/>
+    <rect x="444" y="282" width="100" height="14" rx="7" fill="#0f172a"/>
+    <rect x="452" y="287" width="58" height="5" rx="2.5" fill="#ffffff" opacity="0.2"/>
+  </g>
+
+  <!-- headline -->
+  <text x="600" y="24" font-family="Arial" font-size="13" font-weight="bold" fill="#22d3ee" text-anchor="end">KP FISHERIES</text>
+</svg>

@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" role="img" aria-label="LMS School Management System dashboard mockup">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1226"/>
+      <stop offset="1" stop-color="#1a1233"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3b82f6"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <filter id="s" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000" flood-opacity="0.55"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="340" fill="url(#bg)"/>
+  <g opacity="0.05" stroke="#fff">
+    <path d="M120 0v340M240 0v340M360 0v340M480 0v340M0 85h600M0 170h600M0 255h600"/>
+  </g>
+
+  <!-- header -->
+  <rect x="34" y="28" width="532" height="52" rx="13" fill="#0a0e1a" stroke="#8b5cf6" stroke-opacity="0.4"/>
+  <rect x="54" y="46" width="110" height="16" rx="8" fill="url(#acc)"/>
+  <rect x="470" y="42" width="76" height="24" rx="12" fill="#221640" stroke="#8b5cf6" stroke-opacity="0.5"/>
+  <text x="484" y="58" font-family="Arial" font-size="11" font-weight="bold" fill="#c4b5fd">Admin</text>
+
+  <!-- 4 dashboard cards -->
+  <g font-family="Arial" font-size="12" font-weight="bold" fill="#fff">
+    <!-- Student -->
+    <g filter="url(#s)">
+      <rect x="34" y="96" width="122" height="130" rx="14" fill="#0f172a" stroke="#3b82f6" stroke-opacity="0.45"/>
+      <circle cx="95" cy="138" r="18" fill="#3b82f6" opacity="0.25"/>
+      <circle cx="95" cy="130" r="7" fill="#3b82f6"/>
+      <rect x="80" y="146" width="30" height="4" rx="2" fill="#ffffff" opacity="0.6"/>
+      <text x="54" y="196">Student</text>
+      <text x="54" y="212" font-size="10" font-weight="normal" fill="#8fa3bf">1,240 enrolled</text>
+    </g>
+    <!-- Teacher -->
+    <g filter="url(#s)">
+      <rect x="168" y="96" width="122" height="130" rx="14" fill="#0f172a" stroke="#22d3ee" stroke-opacity="0.45"/>
+      <circle cx="229" cy="138" r="18" fill="#22d3ee" opacity="0.22"/>
+      <rect x="219" y="124" width="20" height="6" rx="3" fill="#22d3ee"/>
+      <rect x="219" y="136" width="20" height="6" rx="3" fill="#22d3ee"/>
+      <text x="188" y="196">Teacher</text>
+      <text x="188" y="212" font-size="10" font-weight="normal" fill="#8fa3bf">86 staff</text>
+    </g>
+    <!-- Parent -->
+    <g filter="url(#s)">
+      <rect x="302" y="96" width="122" height="130" rx="14" fill="#0f172a" stroke="#8b5cf6" stroke-opacity="0.45"/>
+      <circle cx="363" cy="132" r="12" fill="#8b5cf6" opacity="0.3"/>
+      <circle cx="352" cy="124" r="6" fill="#8b5cf6"/>
+      <circle cx="374" cy="124" r="6" fill="#8b5cf6"/>
+      <text x="322" y="196">Parent</text>
+      <text x="322" y="212" font-size="10" font-weight="normal" fill="#8fa3bf">1,090 accounts</text>
+    </g>
+    <!-- Admin -->
+    <g filter="url(#s)">
+      <rect x="436" y="96" width="130" height="130" rx="14" fill="#0f172a" stroke="#fbbf24" stroke-opacity="0.4"/>
+      <rect x="476" y="120" width="50" height="6" rx="3" fill="#fbbf24"/>
+      <rect x="476" y="134" width="38" height="6" rx="3" fill="#fbbf24"/>
+      <rect x="476" y="148" width="46" height="6" rx="3" fill="#fbbf24"/>
+      <text x="456" y="196">Admin</text>
+      <text x="456" y="212" font-size="10" font-weight="normal" fill="#8fa3bf">Full control</text>
+    </g>
+  </g>
+
+  <!-- bottom row -->
+  <g filter="url(#s)">
+    <rect x="34" y="242" width="292" height="68" rx="14" fill="#0f172a" stroke="#22d3ee" stroke-opacity="0.25"/>
+    <text x="54" y="266" font-family="Arial" font-size="11" fill="#8fa3bf">ATTENDANCE TODAY</text>
+    <text x="54" y="294" font-family="Arial" font-size="22" font-weight="bold" fill="#34d399">94.6%</text>
+    <rect x="200" y="276" width="106" height="8" rx="4" fill="#ffffff" opacity="0.1"/>
+    <rect x="200" y="276" width="98" height="8" rx="4" fill="#34d399"/>
+  </g>
+  <g filter="url(#s)">
+    <rect x="340" y="242" width="226" height="68" rx="14" fill="#0f172a" stroke="#3b82f6" stroke-opacity="0.25"/>
+    <text x="360" y="266" font-family="Arial" font-size="11" fill="#8fa3bf">ACTIVE COURSES</text>
+    <text x="360" y="294" font-family="Arial" font-size="22" font-weight="bold" fill="#22d3ee">48</text>
+    <text x="440" y="290" font-family="Arial" font-size="11" fill="#8fa3bf">this semester</text>
+  </g>
+
+  <text x="600" y="22" font-family="Arial" font-size="13" font-weight="bold" fill="#8b5cf6" text-anchor="end">SCHOOL MANAGEMENT</text>
+</svg>

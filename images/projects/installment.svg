@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" role="img" aria-label="Installment Management shopping app mockup">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1226"/>
+      <stop offset="1" stop-color="#1a1233"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <filter id="s" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000" flood-opacity="0.55"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="340" fill="url(#bg)"/>
+  <g opacity="0.05" stroke="#fff">
+    <path d="M120 0v340M240 0v340M360 0v340M480 0v340M0 85h600M0 170h600M0 255h600"/>
+  </g>
+
+  <!-- catalog phone -->
+  <g filter="url(#s)">
+    <rect x="40" y="36" width="190" height="268" rx="16" fill="#0a0e1a" stroke="#8b5cf6" stroke-opacity="0.5"/>
+    <rect x="58" y="56" width="90" height="10" rx="5" fill="url(#acc)"/>
+    <rect x="176" y="56" width="36" height="10" rx="5" fill="#0f172a" stroke="#22d3ee" stroke-opacity="0.4"/>
+    <!-- product 1 -->
+    <rect x="58" y="80" width="154" height="96" rx="12" fill="#101a38"/>
+    <rect x="72" y="92" width="56" height="52" rx="10" fill="#8b5cf6" opacity="0.28"/>
+    <rect x="80" y="100" width="22" height="8" rx="4" fill="#22d3ee"/>
+    <rect x="80" y="112" width="34" height="6" rx="3" fill="#ffffff" opacity="0.25"/>
+    <rect x="80" y="122" width="28" height="6" rx="3" fill="#ffffff" opacity="0.15"/>
+    <rect x="138" y="94" width="60" height="6" rx="3" fill="#ffffff" opacity="0.3"/>
+    <rect x="138" y="106" width="48" height="5" rx="2.5" fill="#ffffff" opacity="0.16"/>
+    <rect x="138" y="122" width="40" height="10" rx="5" fill="#8b5cf6"/>
+    <rect x="138" y="140" width="58" height="14" rx="7" fill="#22d3ee" opacity="0.9"/>
+    <!-- product 2 -->
+    <rect x="58" y="188" width="154" height="96" rx="12" fill="#101a38"/>
+    <rect x="72" y="200" width="56" height="52" rx="10" fill="#3b82f6" opacity="0.25"/>
+    <rect x="80" y="208" width="26" height="8" rx="4" fill="#3b82f6"/>
+    <rect x="80" y="220" width="34" height="6" rx="3" fill="#ffffff" opacity="0.25"/>
+    <rect x="80" y="230" width="28" height="6" rx="3" fill="#ffffff" opacity="0.15"/>
+    <rect x="138" y="202" width="60" height="6" rx="3" fill="#ffffff" opacity="0.3"/>
+    <rect x="138" y="214" width="48" height="5" rx="2.5" fill="#ffffff" opacity="0.16"/>
+    <rect x="138" y="230" width="40" height="10" rx="5" fill="#3b82f6"/>
+    <rect x="138" y="248" width="58" height="14" rx="7" fill="#8b5cf6" opacity="0.9"/>
+  </g>
+
+  <!-- EMI phone -->
+  <g filter="url(#s)">
+    <rect x="250" y="36" width="160" height="268" rx="16" fill="#0a0e1a" stroke="#3b82f6" stroke-opacity="0.5"/>
+    <rect x="268" y="56" width="80" height="10" rx="5" fill="#3b82f6"/>
+    <rect x="268" y="78" width="124" height="56" rx="12" fill="#101a38"/>
+    <text x="278" y="100" font-family="Arial" font-size="10" fill="#8fa3bf">EMI / month</text>
+    <text x="278" y="124" font-family="Arial" font-size="20" font-weight="bold" fill="#22d3ee">Rs 12,500</text>
+    <!-- slider -->
+    <rect x="268" y="150" width="124" height="6" rx="3" fill="#ffffff" opacity="0.12"/>
+    <circle cx="330" cy="153" r="8" fill="#22d3ee"/>
+    <!-- installments -->
+    <rect x="268" y="176" width="124" height="30" rx="9" fill="#0f172a" stroke="#22d3ee" stroke-opacity="0.3"/>
+    <rect x="276" y="187" width="70" height="6" rx="3" fill="#ffffff" opacity="0.25"/>
+    <rect x="356" y="185" width="24" height="9" rx="4.5" fill="#22d3ee" opacity="0.85"/>
+    <rect x="268" y="214" width="124" height="30" rx="9" fill="#0f172a" stroke="#ffffff" stroke-opacity="0.08"/>
+    <rect x="276" y="225" width="60" height="6" rx="3" fill="#ffffff" opacity="0.2"/>
+    <rect x="268" y="252" width="124" height="30" rx="9" fill="#0f172a" stroke="#ffffff" stroke-opacity="0.08"/>
+    <rect x="276" y="263" width="66" height="6" rx="3" fill="#ffffff" opacity="0.2"/>
+  </g>
+
+  <!-- cart floating -->
+  <g transform="translate(420,58)" filter="url(#s)">
+    <rect width="150" height="100" rx="14" fill="#0f172a" stroke="#8b5cf6" stroke-opacity="0.45"/>
+    <circle cx="112" cy="30" r="12" fill="#22d3ee"/>
+    <text x="107" y="34" font-family="Arial" font-size="9" fill="#0a0e1a">3</text>
+    <rect x="16" y="22" width="84" height="7" rx="3.5" fill="#ffffff" opacity="0.3"/>
+    <rect x="16" y="36" width="60" height="6" rx="3" fill="#ffffff" opacity="0.15"/>
+    <rect x="16" y="56" width="118" height="10" rx="5" fill="url(#acc)"/>
+    <rect x="16" y="74" width="96" height="5" rx="2.5" fill="#8b5cf6" opacity="0.6"/>
+  </g>
+
+  <text x="600" y="24" font-family="Arial" font-size="13" font-weight="bold" fill="#8b5cf6" text-anchor="end">INSTALLMENTS</text>
+</svg>

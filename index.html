@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Muhammad Dilawar — BS Software Engineering student, Web Developer and Mobile App Developer. Portfolio of modern web, Flutter and software projects." />
+  <meta name="author" content="Muhammad Dilawar" />
+  <meta name="theme-color" content="#0a0e1a" />
+  <title>Muhammad Dilawar | Web &amp; Mobile App Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- SVG icon sprite -->
+  <svg xmlns="http://www.w3.org/2000/svg" class="icon-sprite" aria-hidden="true">
+    <symbol id="icon-github" viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></symbol>
+    <symbol id="icon-linkedin" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></symbol>
+    <symbol id="icon-facebook" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></symbol>
+    <symbol id="icon-mail" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></symbol>
+    <symbol id="icon-code" viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></symbol>
+    <symbol id="icon-mobile" viewBox="0 0 24 24"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></symbol>
+    <symbol id="icon-tools" viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></symbol>
+    <symbol id="icon-se" viewBox="0 0 24 24"><line x1="6" y1="3" x2="6" y2="15"/><circle cx="18" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M18 9a9 9 0 0 1-9 9"/></symbol>
+    <symbol id="icon-ui" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></symbol>
+    <symbol id="icon-responsive" viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></symbol>
+    <symbol id="icon-modern" viewBox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></symbol>
+    <symbol id="icon-problem" viewBox="0 0 24 24"><path d="M9 18h6"/><path d="M10 22h4"/><path d="M12 2a7 7 0 0 0-4 12.74c.6.5 1 1.4 1 2.26h6c0-.86.4-1.76 1-2.26A7 7 0 0 0 12 2z"/></symbol>
+    <symbol id="icon-learn" viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></symbol>
+    <symbol id="icon-cap" viewBox="0 0 24 24"><path d="M22 10L12 5 2 10l10 5 10-5z"/><path d="M6 12v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5"/><line x1="22" y1="10" x2="22" y2="16"/></symbol>
+    <symbol id="icon-book" viewBox="0 0 24 24"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></symbol>
+    <symbol id="icon-phone" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></symbol>
+    <symbol id="icon-pin" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+    <symbol id="icon-folder" viewBox="0 0 24 24"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></symbol>
+    <symbol id="icon-shield" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></symbol>
+    <symbol id="icon-database" viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></symbol>
+    <symbol id="icon-server" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"/><rect x="2" y="14" width="20" height="8" rx="2" ry="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></symbol>
+    <symbol id="icon-monitor" viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></symbol>
+    <symbol id="icon-send" viewBox="0 0 24 24"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></symbol>
+  </svg>
+
+  <!-- ============ PRELOADER ============ -->
+  <div class="preloader" id="preloader" aria-hidden="true">
+    <div class="preloader-inner">
+      <span class="preloader-dot"></span>
+      <span class="preloader-dot"></span>
+      <span class="preloader-dot"></span>
+      <span class="preloader-dot"></span>
+    </div>
+  </div>
+
+  <!-- ============ ANIMATED BACKGROUND ============ -->
+  <div class="bg-scene" aria-hidden="true">
+    <canvas id="particleCanvas"></canvas>
+    <div class="bg-grid"></div>
+    <div class="bg-blob bg-blob-1"></div>
+    <div class="bg-blob bg-blob-2"></div>
+    <div class="bg-blob bg-blob-3"></div>
+    <span class="code-symbol" style="top:18%;left:6%">&lt;/&gt;</span>
+    <span class="code-symbol" style="top:32%;left:88%">{ }</span>
+    <span class="code-symbol" style="top:64%;left:4%">JS</span>
+    <span class="code-symbol" style="top:12%;left:70%">() =&gt;</span>
+    <span class="code-symbol" style="top:78%;left:82%">#!</span>
+    <span class="code-symbol" style="top:50%;left:93%">Flutter</span>
+    <span class="code-symbol" style="top:85%;left:15%">&lt;div/&gt;</span>
+  </div>
+
+  <!-- ============ NAVIGATION ============ -->
+  <header class="navbar" id="navbar">
+    <nav class="navbar-inner container" aria-label="Main navigation">
+      <a href="#home" class="logo" aria-label="Muhammad Dilawar home">
+        <span class="logo-mark">&lt;MD /&gt;</span>
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="navMenu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#contact" class="nav-link nav-cta">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ============ HERO ============ -->
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <span class="hero-badge"><span class="pulse-dot"></span> Available for Freelance Work</span>
+          <h1 class="hero-title"><span class="hero-name" aria-label="Muhammad Dilawar"><span id="typeName"></span><span class="typed-cursor" id="cursorName" aria-hidden="true"></span></span></h1>
+          <p class="hero-role"><span id="typeRole"></span><span class="typed-cursor" id="cursorRole" aria-hidden="true"></span></p>
+          <p class="hero-headline">
+            Building Powerful <span class="grad-text">Mobile Apps</span>, Enterprise Software,
+            Management Systems, and Digital Solutions For Businesses Worldwide.
+          </p>
+          <ul class="hero-cats" aria-label="Services offered">
+            <li>Mobile Apps</li>
+            <li>Web Apps</li>
+            <li>UI/UX Design</li>
+            <li>Management Systems</li>
+          </ul>
+          <ul class="hero-stack" aria-label="Technologies">
+            <li>React</li>
+            <li>Flutter</li>
+            <li>Node.js</li>
+            <li>Laravel</li>
+            <li>Docker</li>
+            <li>Next.js</li>
+          </ul>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-outline">Hire Me</a>
+            <a href="resume.pdf" class="btn btn-ghost">Resume</a>
+          </div>
+          <div class="hero-trust">
+            <span class="trust-avatars" aria-hidden="true">
+              <span class="trust-avatar">M</span>
+              <span class="trust-avatar">A</span>
+              <span class="trust-avatar">S</span>
+              <span class="trust-avatar">R</span>
+              <span class="trust-avatar">K</span>
+            </span>
+            <p class="trust-text">Trusted by <strong>20+ clients</strong></p>
+          </div>
+        </div>
+        <div class="hero-visual reveal">
+          <div class="hero-orbit">
+            <img src="images/profile/developer.svg" alt="Illustration of a developer working on web and mobile applications" class="hero-illustration" width="480" height="480" />
+            <span class="orbit-chip chip-1"><svg class="icon"><use href="#icon-mobile"/></svg>Flutter</span>
+            <span class="orbit-chip chip-2"><svg class="icon"><use href="#icon-code"/></svg>React</span>
+            <span class="orbit-chip chip-3"><svg class="icon"><use href="#icon-ui"/></svg>Node.js</span>
+            <span class="orbit-chip chip-4"><svg class="icon"><use href="#icon-responsive"/></svg>Next.js</span>
+            <div class="rotating-text" aria-hidden="true">
+              <svg viewBox="0 0 200 200" width="150" height="150">
+                <defs>
+                  <path id="circularTextPath" d="M100,100 m-78,0 a78,78 0 1,1 156,0 a78,78 0 1,1 -156,0" fill="none" />
+                </defs>
+                <text class="circular-text">
+                  <textPath href="#circularTextPath">WEB DEVELOPER &bull; MOBILE APP DEVELOPER &bull; FULL STACK &bull; FLUTTER &bull; </textPath>
+                </text>
+              </svg>
+              <span class="rotating-center"><svg class="icon"><use href="#icon-code"/></svg></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="#about" class="scroll-hint" aria-label="Scroll to about section">
+        <span class="mouse"><span class="wheel"></span></span>
+      </a>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-tag">Who I Am</span>
+          <h2 class="section-title">About <span class="grad-text">Me</span></h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="about-grid">
+          <div class="about-card glass reveal slide-left">
+            <h3 class="about-name">Muhammad Dilawar</h3>
+            <p class="about-role">Web Developer | Mobile App Developer</p>
+            <p class="about-text">
+              I'm Muhammad Dilawar, a Software Engineering student with a strong interest in
+              Web Development and Mobile App Development. I enjoy transforming ideas into
+              modern, responsive and user-friendly digital applications.
+            </p>
+          </div>
+          <div class="stats">
+            <div class="stat-card glass reveal slide-right">
+              <span class="stat-icon"><svg class="icon"><use href="#icon-code"/></svg></span>
+              <h3 class="stat-value"><span class="counter" data-target="90">0</span>%</h3>
+              <p class="stat-label">Web Development</p>
+              <div class="progress"><span class="progress-fill" data-progress="90"></span></div>
+            </div>
+            <div class="stat-card glass reveal slide-right">
+              <span class="stat-icon"><svg class="icon"><use href="#icon-mobile"/></svg></span>
+              <h3 class="stat-value"><span class="counter" data-target="85">0</span>%</h3>
+              <p class="stat-label">Mobile App Development</p>
+              <div class="progress"><span class="progress-fill" data-progress="85"></span></div>
+            </div>
+            <div class="stat-card glass reveal slide-right">
+              <span class="stat-icon"><svg class="icon"><use href="#icon-se"/></svg></span>
+              <h3 class="stat-value"><span class="counter" data-target="82">0</span>%</h3>
+              <p class="stat-label">Software Engineering</p>
+              <div class="progress"><span class="progress-fill" data-progress="82"></span></div>
+            </div>
+            <div class="stat-card glass reveal slide-right">
+              <span class="stat-icon"><svg class="icon"><use href="#icon-ui"/></svg></span>
+              <h3 class="stat-value"><span class="counter" data-target="88">0</span>%</h3>
+              <p class="stat-label">UI Development</p>
+              <div class="progress"><span class="progress-fill" data-progress="88"></span></div>
+            </div>
+          </div>
+        </div>
+        <div class="about-stats">
+          <div class="about-stat glass reveal" style="--d:.0s">
+            <h3 class="about-stat-value"><span class="counter" data-target="3">0</span>+</h3>
+            <p>Years of Experience</p>
+          </div>
+          <div class="about-stat glass reveal" style="--d:.1s">
+            <h3 class="about-stat-value"><span class="counter" data-target="10">0</span>+</h3>
+            <p>Projects Delivered</p>
+          </div>
+          <div class="about-stat glass reveal" style="--d:.2s">
+            <h3 class="about-stat-value"><span class="counter" data-target="20">0</span>+</h3>
+            <p>Clients Worldwide</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-tag">What I Work With</span>
+          <h2 class="section-title">My <span class="grad-text">Skills</span></h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card glass reveal" style="--d:.0s">
+            <div class="skill-card-head">
+              <span class="skill-icon"><svg class="icon"><use href="#icon-ui"/></svg></span>
+              <h3>Frontend</h3>
+            </div>
+            <ul class="skill-list">
+              <li><span class="skill-name">React / Next.js</span><div class="progress thin"><span class="progress-fill" data-progress="95"></span></div></li>
+              <li><span class="skill-name">Flutter</span><div class="progress thin"><span class="progress-fill" data-progress="90"></span></div></li>
+              <li><span class="skill-name">Tailwind CSS</span><div class="progress thin"><span class="progress-fill" data-progress="92"></span></div></li>
+              <li><span class="skill-name">TypeScript</span><div class="progress thin"><span class="progress-fill" data-progress="85"></span></div></li>
+            </ul>
+          </article>
+          <article class="skill-card glass reveal" style="--d:.1s">
+            <div class="skill-card-head">
+              <span class="skill-icon"><svg class="icon"><use href="#icon-server"/></svg></span>
+              <h3>Backend</h3>
+            </div>
+            <ul class="skill-list">
+              <li><span class="skill-name">Laravel / PHP</span><div class="progress thin"><span class="progress-fill" data-progress="93"></span></div></li>
+              <li><span class="skill-name">Node.js / Express</span><div class="progress thin"><span class="progress-fill" data-progress="88"></span></div></li>
+              <li><span class="skill-name">MySQL / PostgreSQL</span><div class="progress thin"><span class="progress-fill" data-progress="90"></span></div></li>
+              <li><span class="skill-name">REST / GraphQL APIs</span><div class="progress thin"><span class="progress-fill" data-progress="91"></span></div></li>
+            </ul>
+          </article>
+          <article class="skill-card glass reveal" style="--d:.2s">
+            <div class="skill-card-head">
+              <span class="skill-icon"><svg class="icon"><use href="#icon-tools"/></svg></span>
+              <h3>DevOps &amp; Tools</h3>
+            </div>
+            <ul class="skill-list">
+              <li><span class="skill-name">Linux / SSH</span><div class="progress thin"><span class="progress-fill" data-progress="88"></span></div></li>
+              <li><span class="skill-name">Docker</span><div class="progress thin"><span class="progress-fill" data-progress="80"></span></div></li>
+              <li><span class="skill-name">Firebase</span><div class="progress thin"><span class="progress-fill" data-progress="85"></span></div></li>
+              <li><span class="skill-name">Git / CI/CD</span><div class="progress thin"><span class="progress-fill" data-progress="90"></span></div></li>
+            </ul>
+          </article>
+          <article class="skill-card glass reveal" style="--d:.3s">
+            <div class="skill-card-head">
+              <span class="skill-icon"><svg class="icon"><use href="#icon-se"/></svg></span>
+              <h3>Software Engineering</h3>
+            </div>
+            <ul class="skill-tags">
+              <li>OOP</li>
+              <li>Data Structures</li>
+              <li>Algorithms</li>
+              <li>Database Concepts</li>
+              <li>Requirement Engineering</li>
+              <li>UML</li>
+              <li>Software Testing</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-tag">My Work</span>
+          <h2 class="section-title">Featured <span class="grad-text">Projects</span></h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="filter-bar reveal" role="group" aria-label="Filter projects">
+          <button class="filter-btn active" data-filter="all" aria-pressed="true">All</button>
+          <button class="filter-btn" data-filter="web" aria-pressed="false">Web</button>
+          <button class="filter-btn" data-filter="mobile" aria-pressed="false">Mobile</button>
+          <button class="filter-btn" data-filter="desktop" aria-pressed="false">Desktop</button>
+          <button class="filter-btn" data-filter="systems" aria-pressed="false">Software Systems</button>
+        </div>
+        <div class="projects-grid" id="projectsGrid">
+
+          <article class="project-card glass reveal" data-category="mobile" style="--d:.0s">
+            <div class="project-visual">
+              <img src="images/projects/fisheries.svg" alt="Khyber Pakhtunkhwa Fisheries Department mobile app preview" loading="lazy" width="600" height="340" />
+              <span class="project-category">Mobile</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">KP Fisheries Department App</h3>
+              <p class="project-desc">
+                A professional Flutter mobile application for the Khyber Pakhtunkhwa
+                Fisheries Department with login, dashboard, farm, dams, rivers and licence management.
+              </p>
+              <ul class="project-tech"><li>Flutter</li><li>Dart</li><li>Responsive UI</li></ul>
+              <div class="project-actions">
+                <button class="btn btn-ghost" data-project="p1">View Details</button>
+                <a href="https://github.com/" target="_blank" rel="noopener" class="btn btn-icon" aria-label="GitHub repository"><svg class="icon"><use href="#icon-github"/></svg></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card glass reveal" data-category="mobile" style="--d:.1s">
+            <div class="project-visual">
+              <img src="images/projects/fish-farm.svg" alt="Fish Farm Management UI preview" loading="lazy" width="600" height="340" />
+              <span class="project-category">Mobile</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Fish Farm Management UI</h3>
+              <p class="project-desc">
+                A responsive Flutter interface for managing fish farms, registration
+                details, GPS coordinates, production capacity and farmer information.
+              </p>
+              <ul class="project-tech"><li>Flutter</li><li>Dart</li></ul>
+              <div class="project-actions">
+                <button class="btn btn-ghost" data-project="p2">View Details</button>
+                <a href="https://github.com/" target="_blank" rel="noopener" class="btn btn-icon" aria-label="GitHub repository"><svg class="icon"><use href="#icon-github"/></svg></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card glass reveal" data-category="mobile" style="--d:.2s">
+            <div class="project-visual">
+              <img src="images/projects/installment.svg" alt="Installment Management App preview" loading="lazy" width="600" height="340" />
+              <span class="project-category">Mobile</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Installment Management App</h3>
+              <p class="project-desc">
+                A Flutter app concept for selling products through installments with product
+                catalog, EMI calculator, cart, checkout and installment tracking.
+              </p>
+              <ul class="project-tech"><li>Flutter</li><li>Dart</li></ul>
+              <div class="project-actions">
+                <button class="btn btn-ghost" data-project="p3">View Details</button>
+                <a href="https://github.com/" target="_blank" rel="noopener" class="btn btn-icon" aria-label="GitHub repository"><svg class="icon"><use href="#icon-github"/></svg></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card glass reveal" data-category="web" style="--d:.3s">
+            <div class="project-visual">
+              <img src="images/projects/webguard.svg" alt="WebGuard SaaS website monitoring platform preview" loading="lazy" width="600" height="340" />
+              <span class="project-category">Web</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">WebGuard</h3>
+              <p class="project-desc">
+                SaaS-based website monitoring and management platform with uptime, downtime,
+                SSL and response-time monitoring plus real-time alerts.
+              </p>
+              <ul class="project-tech"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+              <div class="project-actions">
+                <button class="btn btn-ghost" data-project="p4">View Details</button>
+                <a href="https://github.com/" target="_blank" rel="noopener" class="btn btn-icon" aria-label="GitHub repository"><svg class="icon"><use href="#icon-github"/></svg></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card glass reveal" data-category="systems" style="--d:.4s">
+            <div class="project-visual">
+              <img src="images/projects/lms.svg" alt="LMS School Management System preview" loading="lazy" width="600" height="340" />
+              <span class="project-category">Software System</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">LMS / School Management System</h3>
+              <p class="project-desc">
+                A comprehensive learning management system concept with dedicated dashboards
+                for students, teachers, parents and administrators.
+              </p>
+              <ul class="project-tech"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+              <div class="project-actions">
+                <button class="btn btn-ghost" data-project="p5">View Details</button>
+                <a href="https://github.com/" target="_blank" rel="noopener" class="btn btn-icon" aria-label="GitHub repository"><svg class="icon"><use href="#icon-github"/></svg></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card glass reveal" data-category="desktop" style="--d:.5s">
+            <div class="project-visual">
+              <img src="images/projects/erp.svg" alt="Motorcycle Spare Parts ERP preview" loading="lazy" width="600" height="340" />
+              <span class="project-category">Desktop</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Motorcycle Spare Parts ERP</h3>
+              <p class="project-desc">
+                A Windows/Desktop ERP concept for spare parts businesses covering inventory,
+                sales, purchases, customers, suppliers, stock and reporting.
+              </p>
+              <ul class="project-tech"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+              <div class="project-actions">
+                <button class="btn btn-ghost" data-project="p6">View Details</button>
+                <a href="https://github.com/" target="_blank" rel="noopener" class="btn btn-icon" aria-label="GitHub repository"><svg class="icon"><use href="#icon-github"/></svg></a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-tag">My Journey</span>
+          <h2 class="section-title">Experience &amp; <span class="grad-text">Expertise</span></h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item reveal slide-left">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card glass">
+              <span class="timeline-icon"><svg class="icon"><use href="#icon-code"/></svg></span>
+              <h3>Web Development</h3>
+              <p>Building clean, responsive and interactive websites using modern frontend fundamentals.</p>
+              <ul>
+                <li>HTML5 semantic structure</li>
+                <li>CSS3 layouts and animations</li>
+                <li>JavaScript interactivity</li>
+                <li>Responsive websites</li>
+                <li>UI development</li>
+              </ul>
+            </div>
+          </div>
+          <div class="timeline-item reveal slide-right">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card glass">
+              <span class="timeline-icon"><svg class="icon"><use href="#icon-mobile"/></svg></span>
+              <h3>Mobile App Development</h3>
+              <p>Designing and building cross-platform mobile applications with a focus on user experience.</p>
+              <ul>
+                <li>Flutter applications</li>
+                <li>Dart programming</li>
+                <li>Mobile UI design</li>
+                <li>Responsive layouts</li>
+                <li>App state management</li>
+              </ul>
+            </div>
+          </div>
+          <div class="timeline-item reveal slide-left">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card glass">
+              <span class="timeline-icon"><svg class="icon"><use href="#icon-se"/></svg></span>
+              <h3>Software Engineering</h3>
+              <p>Applying engineering principles to plan, design and test reliable software solutions.</p>
+              <ul>
+                <li>Software design</li>
+                <li>Requirement analysis</li>
+                <li>Database concepts</li>
+                <li>UML modeling</li>
+                <li>Software testing</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EDUCATION ============ -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-tag">Learning</span>
+          <h2 class="section-title">My <span class="grad-text">Education</span></h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="edu-grid">
+          <article class="edu-card glass reveal slide-left">
+            <span class="edu-icon"><svg class="icon"><use href="#icon-cap"/></svg></span>
+            <h3>BS Software Engineering</h3>
+            <p class="edu-place">Sarhad University</p>
+            <p class="edu-desc">
+              Pursuing a Bachelor of Science in Software Engineering with a strong
+              foundation in programming, system design and modern development practices.
+            </p>
+          </article>
+          <article class="edu-card glass reveal slide-right">
+            <span class="edu-icon"><svg class="icon"><use href="#icon-book"/></svg></span>
+            <h3>Key Coursework</h3>
+            <ul class="edu-list">
+              <li>Software Engineering</li>
+              <li>Programming</li>
+              <li>Database Systems</li>
+              <li>Data Structures</li>
+              <li>Algorithms</li>
+              <li>Software Testing</li>
+              <li>Requirement Engineering</li>
+              <li>Artificial Intelligence</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-tag">What I Offer</span>
+          <h2 class="section-title">My <span class="grad-text">Services</span></h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="services-grid">
+          <article class="service-card glass reveal" style="--d:.0s">
+            <span class="service-icon"><svg class="icon"><use href="#icon-code"/></svg></span>
+            <h3>Web Development</h3>
+            <p>Modern responsive websites using HTML, CSS and JavaScript with clean, maintainable code.</p>
+          </article>
+          <article class="service-card glass reveal" style="--d:.1s">
+            <span class="service-icon"><svg class="icon"><use href="#icon-mobile"/></svg></span>
+            <h3>Mobile App Development</h3>
+            <p>Professional Flutter applications with responsive UI that look great on any device.</p>
+          </article>
+          <article class="service-card glass reveal" style="--d:.2s">
+            <span class="service-icon"><svg class="icon"><use href="#icon-ui"/></svg></span>
+            <h3>UI Development</h3>
+            <p>Clean, modern and user-friendly interfaces built with attention to detail and usability.</p>
+          </article>
+          <article class="service-card glass reveal" style="--d:.3s">
+            <span class="service-icon"><svg class="icon"><use href="#icon-se"/></svg></span>
+            <h3>Software Solutions</h3>
+            <p>Business and management system concepts designed for real-world requirements.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ WHY WORK WITH ME ============ -->
+    <section class="section" id="why-me">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-tag">Why Me</span>
+          <h2 class="section-title">Why Work <span class="grad-text">With Me</span></h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="why-grid">
+          <article class="why-card glass reveal" style="--d:.0s">
+            <span class="why-icon"><svg class="icon"><use href="#icon-responsive"/></svg></span>
+            <h3>Clean &amp; Responsive Design</h3>
+            <p>Every interface I build adapts perfectly to desktop, tablet and mobile screens.</p>
+          </article>
+          <article class="why-card glass reveal" style="--d:.1s">
+            <span class="why-icon"><svg class="icon"><use href="#icon-modern"/></svg></span>
+            <h3>Modern Development</h3>
+            <p>I follow current standards and best practices to keep projects fast and future-proof.</p>
+          </article>
+          <article class="why-card glass reveal" style="--d:.2s">
+            <span class="why-icon"><svg class="icon"><use href="#icon-problem"/></svg></span>
+            <h3>Problem Solving</h3>
+            <p>I break complex problems into simple, logical steps and deliver practical solutions.</p>
+          </article>
+          <article class="why-card glass reveal" style="--d:.3s">
+            <span class="why-icon"><svg class="icon"><use href="#icon-learn"/></svg></span>
+            <h3>Continuous Learning</h3>
+            <p>I constantly learn new tools and technologies to sharpen my development skills.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-tag">Get In Touch</span>
+          <h2 class="section-title">Contact <span class="grad-text">Me</span></h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info reveal slide-left">
+            <h3 class="contact-name">Muhammad Dilawar</h3>
+            <p class="contact-role">Web Developer | Mobile App Developer</p>
+            <ul class="contact-details">
+              <li>
+                <span class="contact-icon"><svg class="icon"><use href="#icon-mail"/></svg></span>
+                <div><small>Email</small><a href="mailto:dilawarafridi553@gmail.com">dilawarafridi553@gmail.com</a></div>
+              </li>
+              <li>
+                <span class="contact-icon"><svg class="icon"><use href="#icon-phone"/></svg></span>
+                <div><small>Phone</small><a href="tel:+923249052478">0324 9052478</a></div>
+              </li>
+              <li>
+                <span class="contact-icon"><svg class="icon"><use href="#icon-pin"/></svg></span>
+                <div><small>Location</small><span>Peshawar, Pakistan</span></div>
+              </li>
+            </ul>
+            <div class="contact-socials">
+              <a href="https://github.com/" target="_blank" rel="noopener" class="social-btn" aria-label="GitHub"><svg class="icon"><use href="#icon-github"/></svg></a>
+              <a href="https://linkedin.com/" target="_blank" rel="noopener" class="social-btn" aria-label="LinkedIn"><svg class="icon"><use href="#icon-linkedin"/></svg></a>
+              <a href="https://facebook.com/" target="_blank" rel="noopener" class="social-btn" aria-label="Facebook"><svg class="icon"><use href="#icon-facebook"/></svg></a>
+              <a href="mailto:dilawarafridi553@gmail.com" class="social-btn" aria-label="Email"><svg class="icon"><use href="#icon-mail"/></svg></a>
+            </div>
+          </div>
+          <form class="contact-form glass reveal slide-right" id="contactForm" novalidate>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your full name" autocomplete="name" required />
+              <span class="form-error" aria-live="polite"></span>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email" required />
+              <span class="form-error" aria-live="polite"></span>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="Subject of your message" required />
+              <span class="form-error" aria-live="polite"></span>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+              <span class="form-error" aria-live="polite"></span>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+            <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p class="footer-logo">&lt;MD /&gt;</p>
+      <p class="footer-text">© <span id="year">2026</span> Muhammad Dilawar. Crafted with HTML, CSS &amp; JavaScript.</p>
+    </div>
+  </footer>
+
+  <!-- ============ PROJECT MODAL ============ -->
+  <div class="modal-overlay" id="projectModal" aria-hidden="true">
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="modalClose" aria-label="Close modal">&times;</button>
+      <div class="modal-visual">
+        <img src="" alt="" id="modalImage" />
+      </div>
+      <div class="modal-body">
+        <span class="modal-category" id="modalCategory"></span>
+        <h3 class="modal-title" id="modalTitle"></h3>
+        <p class="modal-desc" id="modalDesc"></p>
+        <h4 class="modal-subtitle">Features</h4>
+        <ul class="modal-features" id="modalFeatures"></ul>
+        <h4 class="modal-subtitle">Technologies</h4>
+        <ul class="modal-tech" id="modalTech"></ul>
+        <div class="modal-actions">
+          <a href="https://github.com/" target="_blank" rel="noopener" class="btn btn-primary">View on GitHub</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ SCROLL TO TOP ============ -->
+  <button class="to-top" id="toTop" aria-label="Scroll to top">&uarr;</button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
